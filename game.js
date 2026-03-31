@@ -16,6 +16,8 @@ function getHumanChoice(){
     return choice.toLowerCase();
 }
 
+// Plays the game for a single round.
+//After each round, the winner is announced.
 function playRound(humanChoice, computerChoice) {
     if (humanChoice===computerChoice){
         console.log("It's a tie!");
@@ -32,6 +34,9 @@ function playRound(humanChoice, computerChoice) {
     }
 }
 
+// Plays the game for a specified amount of rounds.
+// After each round, the current winner and score are announced.
+// After the rounds are done, the final winner is announced.
 function playGame(rounds) {
     for (let round=1; round<rounds+1;round++) {
         console.log('ROOUND '+round);
@@ -55,6 +60,7 @@ function playGame(rounds) {
     }
 }
 
+// Play game for 5 rounds.
 playGame(5);
 
 
