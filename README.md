@@ -11,6 +11,13 @@ Aquired knowledge:
 * understanding scope (global/local variables)
 * adding meaningful comments
 --------------------------------------------------------------------------------------------------
+*Second stage:* Add UI
+
+Aquired knowledge: 
+* using flexbox
+* add event listeners
+* DOM manipulation
+--------------------------------------------------------------------------------------------------
 
 
        

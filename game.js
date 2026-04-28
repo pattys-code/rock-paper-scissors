@@ -7,6 +7,7 @@ const current = document.querySelector('.current');
 let humanScore = 0;
 let computerScore = 0;
 
+// creates random choice for computer 
 function getComputerChoice() {
     let choice = Math.floor(Math.random()*3);
     if (choice===0)
