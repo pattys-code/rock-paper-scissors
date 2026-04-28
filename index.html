@@ -4,14 +4,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <script src="game.js" defer></script>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
-    <div class="btn-container">
-        <button id=rock class="btn-rock">Rock</button>
-        <button id=paper class="btn_paper">Paper</button>
-        <button id=scissors class="btn-scissors">Scissors</button>   
+    <div class="header">
+        <p class="question">Wanna play Rock-Paper-Scissors?</p>
+        <p class="rules">Click to choose your weapon. First to get 5 points wins!</p>
     </div>
-    <div class="current">...</div>
-    <div class="result">...</div>
+    <div class="btn-container">
+        <div class="img-container">
+            <img class="img-rock" src="img/rock.png" alt="Dwayne 'The Rock' Johnson">
+            <button id=rock class="btn-rock">Rock</button>
+        </div>
+        <div class="img-container">
+            <i class="fa-classic fa-solid fa-toilet-paper fa-4x"></i>
+            <button id=paper class="btn_paper">Paper</button>
+        </div>
+        <div class="img-container">
+            <i class="fa-classic fa-solid fa-scissors fa-4x"></i>
+            <button id=scissors class="btn-scissors">Scissors</button>  
+        </div> 
+    </div>
+    <div class="score current"></div>
+    <div class="score final"></div>
 </body>
 </html>
