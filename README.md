@@ -1,23 +1,11 @@
-###Odin Projekt 3: Rock,Paper, Scissors
+# Rock, Paper, Scissors 
 
-*Aim:* Create a mini game for "Rock, Paper, scissors". The game should be played until either the computer or the human player has 5 points. The score is kept and the winner announced at the end.
+Mini game for "Rock, Paper, scissors". 
 
---------------------------------------------------------------------------------------------------
-*First stage:* Simple console game
+*How to play:* You can acces the game by opening the latest GitHub Pages deplyoment. Then simply choose and option and click the buttin below it.The game can be played until either the computer or the human player has 5 points. The score is kept and the winner announced at the end. Have fun playing!
 
-Aquired knowledge: 
-* problem solving
-* using functions
-* understanding scope (global/local variables)
-* adding meaningful comments
---------------------------------------------------------------------------------------------------
-*Second stage:* Add UI
 
-Aquired knowledge: 
-* using flexbox
-* add event listeners
-* DOM manipulation
---------------------------------------------------------------------------------------------------
+
 
 
        
